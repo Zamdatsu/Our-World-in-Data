@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+DATA_URL = "https://ourworldindata.org/grapher/life-expectancy.csv"
+
 # A. Configuración inicial
 st.set_page_config(page_title="Reporte Ejecutivo - Our World in Data", layout="wide")
 st.title("Reporte Ejecutivo con Datos Públicos")
